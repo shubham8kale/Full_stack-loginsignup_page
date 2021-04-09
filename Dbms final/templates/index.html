@@ -1,0 +1,42 @@
+<html>
+
+  <head>
+
+      <link rel = "stylesheet" href="{{url_for('static',filename='homepage.css')}}">
+
+      <title>Better Life - Let's save the environment</title>
+
+  </head>
+
+  <body>
+
+      <div id = "header">
+
+        <div id = "logotxt"><p>Better Life Foundation <img src = {{url_for('static',filename='leaf.png')}} height = "20px"></p></div>
+        <a href = "/signup"><button class="btn success">Sign Up</button></a>
+
+      </div>
+
+      <div id = "bodcontent">
+
+      <p id = "betlife"><span>Better Life</span><p>
+      <p ID = "found"><span>Foundation</span><p>
+      <p class = "desc">We strive to make earth a better place to breathe and live in by restoring the CO<sub>2</sub> levels with the help of planting trees.</p>
+      <p class = "desc">You donate 100 &#8377; and we will plant 1 healthy tree.</p>
+      <a href = "/login"><button class="btns info">Login</button></a>
+      </div>
+
+
+      <div id = "footer">
+
+      <h3>Download the app</h3>
+      <p class = "lead">Contact Us : 8169390811</p>
+
+      <div class = "bro"><a href=""><img src= "{{url_for('static',filename='appstore.jpg')}}" class="store" id = "appstore" height="90px"></a>
+      <a href=""><img src= "{{url_for('static',filename='playstore.jpg')}}" class="store" id = "playstore" height="90px"></a></div>
+
+      </div>
+
+  </body>
+
+</html>

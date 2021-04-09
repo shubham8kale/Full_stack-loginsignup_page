@@ -1,0 +1,113 @@
+body {
+  margin:0;
+}
+
+#header {
+  width:100%;
+  height:80px;
+  background-color: black;
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+#bodcontent {
+  width:100%;
+  height:400px;
+  background-image: url(leaflet.jpg);
+  background-size: 100% 100%;
+  opacity: 0.7;
+  margin-top:-60px;
+  margin-bottom: -40px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 1
+}
+
+#betlife {
+  font-size: 60px;
+  padding-top: 60px;
+}
+#found {
+  font-size: 60px;
+  margin-top: -60px;
+}
+
+.desc {
+  position: relative;
+  top:-15px;
+}
+
+#logotxt {
+  float:left;
+  margin-left:10px;
+  font-size:24px;
+  font-family: Papyrus, fantasy;
+  color: white;
+}
+
+#signupbut {
+  float:right;
+  height:30px;
+  width:70px;
+  background-color: white;
+  color: white;
+  border-radius:3px;
+  background-color: #1338be;
+  position:relative;
+  left:1150px;
+  top: 27px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.btn {
+  float: right;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  width:75px;
+  height:35px;
+  border-radius: 3px;
+  position: relative;
+  left:1080px;
+  top:23px;
+}
+
+/* Green */
+.success {
+
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#footer{background-color:black;text-align:center;color:white;margin-top:40px;padding-top:20px;height: 300PX;}
+
+#playstore{position:relative;top:-2px;}
+
+.bro{display: flex;align-items: center;justify-content: center;}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+.btns {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
